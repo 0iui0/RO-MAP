@@ -29,7 +29,7 @@ using namespace cv;
 using namespace cv::line_descriptor;
 using namespace std;
 
-// BRIEF change vector of keylines to cvMat (float). 
+// BRIEF change vector of keylines to cv::Mat (float). 
 void keylines_to_mat(const std::vector< KeyLine>& keylines_src, cv::Mat& linesmat_out, float scale)
 {
    linesmat_out.create(keylines_src.size(),4,CV_32FC1);  // CV_32SC1

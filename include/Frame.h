@@ -27,6 +27,8 @@
 #include "ObjectFrame.h"
 #include "ObjectMap.h"
 #include <opencv2/opencv.hpp>
+#include <opencv2/core/types_c.h>
+#include <opencv2/core/core_c.h>
 
 namespace ORB_SLAM2
 {
